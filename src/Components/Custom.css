@@ -1,0 +1,64 @@
+h1 {
+    margin: 0px;
+}
+
+.header {
+    background-color: blueviolet;
+    
+}
+.logo {
+    padding: 10px;
+    color: azure;
+}
+
+.form {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  flex-direction: column;
+}
+
+.edit {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    background-color: lightgreen;
+    border-radius: 26px;
+  margin: 0px 5px 0px 5px;
+}
+.update {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    background-color: lightblue;
+    border-radius: 26px;
+  margin: 0px 5px 0px 5px;
+}
+.delete {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    background-color: red;
+    border-radius: 26px;
+  margin: 0px 5px 0px 5px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.list{display: flex;
+    align-items: center;
+border-radius: 5px;
+padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+    background-color: whitesmoke;
+   }
+
+    .data {
+        
+        padding: 5px;
+        align-items: center;
+    }
